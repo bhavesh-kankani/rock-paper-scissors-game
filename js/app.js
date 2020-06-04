@@ -64,7 +64,7 @@ function game(userChoice) {
             break;
         case "rock-imagepaper-image":
         case "paper-imagescissors-image":
-        case "scissors-imagepaper-image":
+        case "scissors-imagerock-image":
             lose(userChoice, computerChoice);
             break;
         case "rock-imagerock-image":
